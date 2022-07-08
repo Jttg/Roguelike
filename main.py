@@ -9,15 +9,15 @@ from procgen import generate_dungeon
 
 
 def main() -> None:
-    screen_width = 180
-    screen_height = 100
+    screen_width = 90
+    screen_height = 60
 
-    map_width = 180
-    map_height = 100
+    map_width = 90
+    map_height = 60
 
-    room_max_size = 15
+    room_max_size = 12
     room_min_size = 6
-    max_rooms = 45
+    max_rooms = 20
 
     max_monsters_per_room = 2
 
